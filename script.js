@@ -18,7 +18,7 @@ createApp({
       this.openDropdown = false;
     },
     launchSelectedBuild() {
-      const route = this.selectedBuild.value === 'wasm' ? './wasm/?v=2.0.2' : './js/?v=2.0.2';
+      const route = this.selectedBuild.value === 'wasm' ? './wasm/' : './js/';
       window.location.assign(route);
     },
     onMouseMove(event) {
