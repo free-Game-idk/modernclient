@@ -9,7 +9,7 @@ createApp({
         { value: 'js', label: 'JavaScript Build' },
         { value: 'wasm', label: 'WASM Build' }
       ],
-      selectedBuild: { value: 'wasm', label: 'WASM Build' },
+      selectedBuild: { value: 'js', label: 'JavaScript Build' },
     };
   },
   methods: {
